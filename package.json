@@ -1,0 +1,33 @@
+{
+  "name": "bel-profile",
+  "version": "1.0.0",
+  "description": "Profile page with portfolio gallery built with bel and csjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browserify example.js > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninabreznik/bel-profile.git"
+  },
+  "keywords": [
+    "bel",
+    "csjs",
+    "profile",
+    "portfolio"
+  ],
+  "author": "ninabreznik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninabreznik/bel-profile/issues"
+  },
+  "homepage": "https://github.com/ninabreznik/bel-profile#readme",
+  "dependencies": {
+    "bel": "^4.6.1",
+    "csjs-inject": "^1.0.1"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0"
+  }
+}
